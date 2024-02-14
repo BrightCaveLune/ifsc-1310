@@ -1,12 +1,18 @@
 body {
-    background-color: black;
-    color: white;
-  }
-  
-  body h1{
-    Font-family: "Times New Roman", Times, serif;
-  }
-  
-  body p{
-    Font-family: "Times New Roman", Times, serif;
-  }
+  background-color: black;
+  color: white;
+  Font-family: "Times New Roman", Times, serif;
+}
+
+/*
+.cssclassname {
+  property.name
+}
+*/
+
+/*
+#cssidname {
+  property.name
+}
+*/
+

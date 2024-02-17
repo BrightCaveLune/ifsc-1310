@@ -10,3 +10,12 @@ body {
   body p{
     Font-family: "Times New Roman", Times, serif;
   }
+  
+  #egg {
+    width: 5%;
+    height: 5%;  
+  }
+
+  #table {
+    border-style: double;
+  }

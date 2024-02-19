@@ -1,0 +1,44 @@
+/* ---- CSS Demo ---- */
+
+/* Color Theme Swatches in Hex 
+.Magic-The-Gathering-Cards-1-hex { color: #1A4027; }
+.Magic-The-Gathering-Cards-2-hex { color: #9DBF84; }
+.Magic-The-Gathering-Cards-3-hex { color: #EAF2AE; }
+.Magic-The-Gathering-Cards-4-hex { color: #D9CE3B; }
+.Magic-The-Gathering-Cards-5-hex { color: #BFA836; }
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*  --------------- Global Styles -----------------  */
+
+body {
+    /*----------fontstack example - old usage-----------
+    Font-family: "Times New Roman", Times, serif; 
+    */
+    background-color: #1A4027; 
+    color: #9DBF84;
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+a:link {
+    color: #EAF2AE;
+}
+a:visited{
+    color: #BFA836;
+}
+
+/*----- Primary Header -----*/
+
+header.primary {
+    color: #D9CE3B;
+}

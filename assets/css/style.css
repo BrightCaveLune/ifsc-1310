@@ -1,8 +1,24 @@
+/* ---- Main index.html ---- */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*  --------------- Global Styles -----------------  */
+
 body {
   background-color: black;
   color: lightgray;
   Font-family: "Times New Roman", Times, serif;
 }
+
+
 
 /*
 .cssclassname {

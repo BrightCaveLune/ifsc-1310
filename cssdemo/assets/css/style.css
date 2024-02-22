@@ -24,17 +24,21 @@ body {
     /*----------fontstack example - old usage-----------
     Font-family: "Times New Roman", Times, serif; 
     */
-    background-color: #1A4027; 
+    background-color: #1A4027;
     color: #9DBF84;
-    font-family: "Jacquarda Bastarda 9", serif;
+    /*font-family: "Jacquarda Bastarda 9", serif;*/
     font-weight: 400;
-    font-style: normal;    
-    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Ehoundstooth%3C/title%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 18h6l6-6v6h6l-6 6H0M24 18v6h-6M24 0l-6 6h-6l6-6M12 0v6L0 18v-6l6-6H0V0'/%3E%3C/g%3E%3C/svg%3E");
+    font-style: normal;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Ehoundstooth%3C/title%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 18h6l6-6v6h6l-6 6H0M24 18v6h-6M24 0l-6 6h-6l6-6M12 0v6L0 18v-6l6-6H0V0'/%3E%3C/g%3E%3C/svg%3E");
+    margin: 0px;
+    font-size: 1.5rem;
 }
+
 a:link {
     color: #EAF2AE;
 }
-a:visited{
+
+a:visited {
     color: #BFA836;
 }
 
@@ -44,4 +48,69 @@ a:visited{
 
 header.primary {
     color: #D9CE3B;
+    background-color:cadetblue;
+    text-align: center;
+    text-shadow: 3px 3px 15px #000000;
+    /*Single Value shorthand*/
+    padding: 40px;
+    /*Long Form*/
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    /* T,R,B,L*/
+    padding: 20px 40px 20px 40px;
+    /* T+B, R+L*/
+    padding: 20px 40px;
+}
+
+header.primary .hgroup h1{
+    font-size: 4rem;
+    margin: 20px 0 0;
+}
+
+header.primary .hgroup h1 a{
+    color: #000000;
+    text-decoration: none;
+}
+
+header.primary .hgroup h2{
+    margin: 0;
+    font-size: 2rem;
+    color: #000000;
+}
+
+header.primary nav{
+    max-width: 900px;
+    margin: 15px auto;
+    
+}
+
+header.primary ul{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+header.primary nav ul li {
+    list-style-type: none;
+
+}
+
+header.primary nav a{
+    color: #fff;
+    text-decoration: none;
+    background-color: black;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 5px 20px;
+    border-radius: 50px 4px;
+    border: 2px ridge #1A4027;
+    transition: 0.3s;
+}
+
+header.primary nav a:hover{
+    background-color: rgba(0, 0, 0, .7);
 }

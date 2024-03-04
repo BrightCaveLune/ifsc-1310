@@ -8,6 +8,7 @@
 .Magic-The-Gathering-Cards-5-hex { color: #BFA836; }
 */
 
+/* ---- Box Sizing ---- */
 html {
     box-sizing: border-box;
 }
@@ -17,6 +18,13 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+/*  --------------- Responsive Images -----------------  */
+
+img {
+    max-width: 100%;
+}
+
 
 /*  --------------- Global Styles -----------------  */
 
@@ -42,13 +50,43 @@ a:visited {
     color: #BFA836;
 }
 
+/*  --------------- Utility Classes -----------------  */
 
+.container {
+    max-width: 960px;
+    width: 80vw;
+    margin: 40px auto;
+}
+
+.img-right {
+    float: right;
+    margin: 10px 0 10px 20px;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.img-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.img-center {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 50px;
+}
 
 /*----- Primary Header -----*/
 
 header.primary {
     color: #D9CE3B;
-    background-color:cadetblue;
+    background-color: cadetblue;
     text-align: center;
     text-shadow: 3px 3px 15px #000000;
     /*Single Value shorthand*/
@@ -64,35 +102,35 @@ header.primary {
     padding: 20px 40px;
 }
 
-header.primary .hgroup h1{
+header.primary .hgroup h1 {
     font-size: 4rem;
     margin: 20px 0 0;
 }
 
-header.primary .hgroup h1 a{
+header.primary .hgroup h1 a {
     color: #000000;
     text-decoration: none;
 }
 
-header.primary .hgroup h2{
+header.primary .hgroup h2 {
     margin: 0;
     font-size: 2rem;
     color: #000000;
 }
 
-header.primary nav{
+header.primary nav {
     max-width: 900px;
     margin: 15px auto;
-    
+
 }
 
-header.primary ul{
+header.primary ul {
     padding: 10px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+
 }
 
 header.primary nav ul li {
@@ -100,7 +138,7 @@ header.primary nav ul li {
 
 }
 
-header.primary nav a{
+header.primary nav a {
     color: #fff;
     text-decoration: none;
     background-color: black;
@@ -111,6 +149,6 @@ header.primary nav a{
     transition: 0.3s;
 }
 
-header.primary nav a:hover{
+header.primary nav a:hover {
     background-color: rgba(0, 0, 0, .7);
 }

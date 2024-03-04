@@ -1,3 +1,11 @@
+/*-- Color Pallet --*/
+/* CSS HEX 
+--snow: #fffbfeff;
+--gray: #7a7d7dff;
+--timberwolf: #d0cfcfff;
+--davys-gray: #565254ff;
+--white: #ffffffff; */
+
 /* ---- Main index.html ---- */
 
 html {
@@ -13,11 +21,36 @@ html {
 /*  --------------- Global Styles -----------------  */
 
 body {
-  color: lightgray;
-  Font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: baseline;
+  color: #FFFFFF;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #565254;
   background-color: #000000;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23565656' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-color: #7A7D7D;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect fill='none' stroke-width='1' stroke-opacity='0.12' id='a' x='-400' y='-300' width='800' height='600'/%3E%3C/defs%3E%3Cg style='transform-origin:center'%3E%3Cg transform='rotate(45 0 0)' style='transform-origin:center'%3E%3Cg transform='rotate(-152 0 0)' style='transform-origin:center'%3E%3Cg transform='translate(1000 750)'%3E%3Cuse stroke='%23D0CFCF' href='%23a' transform='rotate(9.5 0 0) scale(1.095)'/%3E%3Cuse stroke='%23d3d2d2' href='%23a' transform='rotate(19 0 0) scale(1.19)'/%3E%3Cuse stroke='%23d6d5d5' href='%23a' transform='rotate(28.5 0 0) scale(1.285)'/%3E%3Cuse stroke='%23dad8d8' href='%23a' transform='rotate(38 0 0) scale(1.38)'/%3E%3Cuse stroke='%23dddbdb' href='%23a' transform='rotate(47.5 0 0) scale(1.475)'/%3E%3Cuse stroke='%23e0ddde' href='%23a' transform='rotate(57 0 0) scale(1.57)'/%3E%3Cuse stroke='%23e3e0e1' href='%23a' transform='rotate(66.5 0 0) scale(1.665)'/%3E%3Cuse stroke='%23e6e3e4' href='%23a' transform='rotate(76 0 0) scale(1.76)'/%3E%3Cuse stroke='%23e9e6e7' href='%23a' transform='rotate(85.5 0 0) scale(1.855)'/%3E%3Cuse stroke='%23ede9ea' href='%23a' transform='rotate(95 0 0) scale(1.95)'/%3E%3Cuse stroke='%23f0ecee' href='%23a' transform='rotate(104.5 0 0) scale(2.045)'/%3E%3Cuse stroke='%23f3eff1' href='%23a' transform='rotate(114 0 0) scale(2.14)'/%3E%3Cuse stroke='%23f6f2f4' href='%23a' transform='rotate(123.5 0 0) scale(2.235)'/%3E%3Cuse stroke='%23f9f5f7' href='%23a' transform='rotate(133 0 0) scale(2.33)'/%3E%3Cuse stroke='%23fcf8fb' href='%23a' transform='rotate(142.5 0 0) scale(2.425)'/%3E%3Cuse stroke='%23FFFBFE' href='%23a' transform='rotate(152 0 0) scale(2.52)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+
+a:link {
+  color: #D0CFCF;
+}
+
+a:visited {
+  color: #565254;
+}
+
+/*---  ---*/
+
+/*--- Footer ---*/
+
+footer h6{
+  border: 2px;
+  padding: 2px;
+  margin: 2px 24px;
+}
+
 
 
 

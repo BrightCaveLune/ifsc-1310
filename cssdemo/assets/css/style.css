@@ -152,3 +152,184 @@ header.primary nav a {
 header.primary nav a:hover {
     background-color: rgba(0, 0, 0, .7);
 }
+
+#content {
+    line-height: 1.5;
+}
+
+#content h2 {
+    color: #3b638b;
+    border-bottom: 1px dotted #c0c0c0;
+}
+
+#content h3 {
+    border-left: 7.5px solid #3b638b;
+    padding: 7.5px;
+}
+
+#blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    border-bottom: 1px dotted #c0c0c0;
+    padding: 2rem 0;
+    border-top: 1px dotted #c0c0c0;
+    flex-wrap: wrap;
+}
+
+#blog h2 {
+    flex: 0 0 100%;
+    margin: 0;
+    text-align: center;
+}
+
+#blog .post {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .6);
+    padding: 10px;
+    border-radius: 4px;
+    font-size: .8rem;
+    transition: .5s;
+    flex: 1;
+}
+
+#blog figure {
+    margin: 0;
+}
+
+#blog figcaption {
+    text-transform: uppercase;
+    font-size: .6rem;
+    text-align: center;
+    color: #c0c0c0;
+}
+
+#blog header {
+    padding-top: 10px;
+    font-size: .6rem;
+    color: #c0c0c0;
+}
+
+#blog header h2 {
+    margin: 0;
+}
+
+#blog a {
+    color: #3b638b;
+}
+
+#blog .post:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .6);
+}
+
+#practice h2 {
+    color: #3b638b;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+table {
+    border: 1px solid #c0c0c0;
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: bold;
+    margin: 10px;
+}
+
+th {
+    background-color: #172635;
+    color: #ffffff;
+    padding: 7.5px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+td:nth-child(2),
+td:nth-child(3) {}
+
+td:nth-child(n+2) {
+    text-align: right;
+}
+
+td {
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+}
+
+
+#practice ol {
+    list-style-type: lower-decimal;
+}
+
+#practice ul ul {
+    list-style-type: square;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin: 0;
+}
+
+dd+dt {
+    margin-top: 1rem;
+}
+
+#practice blockquote {
+    border: 4px double #c0c0c0;
+    padding: 20px 40px;
+    margin: 40px 80px;
+    border-radius: 30px 0;
+    background-color: #3b638b;
+    color: #ffffff;
+    line-height: 1.4;
+    text-shadow: 1px 1px #000;
+}
+
+
+aside[role="complementary"] {
+    background-color: #172635;
+    color: #ffffff;
+    padding: 1.25rem;
+}
+
+aside .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+aside .container a {
+    color: #fff;
+}
+
+aside .container a:last-of-type {
+    display: block;
+
+    text-align: right;
+    margin-top: 1rem;
+}
+
+aside .widget footer {
+    display: none;
+}
+
+#colophon {
+    background-color: #3b638b;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 1.1rem;
+}

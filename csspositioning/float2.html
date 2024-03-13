@@ -29,11 +29,17 @@
 
     #wrapper {
       background-color: #FFF;
-      border:  solid #c0c0c0;
+      border: 0px solid #c0c0c0;
       width: 800px;
       margin-right: auto;
       margin-left: auto;
       text-shadow: 2px 2px #000;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: space-around;
+      align-self: flex-end;
+      
     }
 
     #navy {
@@ -41,7 +47,7 @@
       width: 175px;
       height: 125px;
       float: left;
-      margin-left: 20px;
+      margin: 20px 0;
     }
 
     #teal {
@@ -49,7 +55,7 @@
       width: 175px;
       height: 125px;
       float: left;
-      margin-left: 20px;
+      margin: 20px 0 20px 20px;
     }
 
     #blue {
@@ -57,7 +63,7 @@
       width: 175px;
       height: 125px;
       float: left;
-      margin-left: 20px;
+      margin: 20px 0 20px 20px;
     }
 
     #aqua {
@@ -65,13 +71,14 @@
       width: 175px;
       height: 125px;
       float: left;
-      margin-left: 20px;
+      margin: 20px 0 20px 20px;
     }
 
     #footer {
       background-color: #666;
       clear: left;
       margin: 0px 20px 20px 20px;
+      width: 100%;
     }
 
     h1 {

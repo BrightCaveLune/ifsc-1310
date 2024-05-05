@@ -69,7 +69,6 @@ div {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #a310102a;
 }
 
 .container > aside:nth-child(2) > img:nth-child(1) {
@@ -77,16 +76,49 @@ div {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #a310102a;
     margin: 10px auto;
     border: 2px solid #000000;
     border-radius: 10px;
 }
 
+#about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#about section#writing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 40%;
+}
+
+#about aside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 60%;
+    height: 60%;
+}
 /* ---------------- Primary Heading ----------------- */
 
 header.primary {
-    color: #D9CE3B;
     text-align: center;
     padding: 20px 40px;
 }
@@ -118,7 +150,7 @@ header.primary .hgroup h2 {
 
 header.primary nav {
     max-width: 900px;
-    margin: 15px auto;
+    margin: 15px 30px;
 
 }
 
@@ -139,7 +171,6 @@ header.primary nav ul li {
 header.primary nav a {
     color: #fff;
     text-decoration: none;
-    background-color: black;
     background-color: rgba(0, 0, 0, .5);
     padding: 5px 20px;
     border-radius: 50px 4px;
@@ -153,16 +184,32 @@ header.primary nav a:hover {
 
 /* ---------------- Content ----------------- */
 
+h2, h3 {
+    text-decoration: underline;
+}
+
+div#content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: auto;
+}
+
 section.container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #534c91;
     padding: 20px;
     margin: 20px auto;
     border: 2px solid #000000;
     border-radius: 10px;
+    width: 70%;
 }
 
 section.container #about {
@@ -170,27 +217,45 @@ section.container #about {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    background-color: #534c91;
     padding: 20px;
     margin: 20px auto;
     border: 2px solid #000000;
     border-radius: 10px;
 }
 
-section.container #lists {
-    background-color: #D9CE3B;
+#lists {
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap; 
-    justify-content: space-around;
+    justify-content:left;
+    width: auto;
+}
+
+#design, #environ, #controls {
+    width: 30%;
+    margin: 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#design h4, #environ h4, #controls h4 {
+    text-align:start;
+    text-decoration: underline;
+    
 }
 
 section.container #lists h4 {
     font-size: 1.5rem;
     line-height: 1.5;
     margin: 20px 0;
-    background-color: rgb(0, 255, 255);
     display: flex;
+    margin: 20px auto;
+    padding: auto;
 }
 
 section.container #lists ul {
@@ -198,18 +263,13 @@ section.container #lists ul {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: rgb(0, 0, 255);
     padding: 0px;
     list-style-type: none;
-    border: 2px solid #000000;
 }
 
 section.container #lists ul li {
     display: flex;
-    background-color: rgb(0, 255, 255);
-    margin: 20px 0;
-    padding: 10px;
-    border: 2px solid #000000;
+    margin: 20px 0px;
     border-radius: 10px;
 }
 
@@ -217,7 +277,6 @@ section.container #lists ul li {
 
 section.container #lists details {
     display: flex;
-    background-color: rgb(255, 0, 157);
     margin: 20px 0;
     padding: 10px;
     border: 2px solid #000000;
@@ -228,7 +287,6 @@ section.container #lists details {
 
 section.container aside {
     display: flex;
-    background-color: #534c91;
     padding: 20px;
     margin: 20px 0;
     border: 2px solid #000000;
@@ -240,7 +298,6 @@ section.container #writing {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #534c91;
     padding: 20px;
     margin: 20px auto;
     border: 2px solid #000000;
@@ -264,12 +321,18 @@ section.container #about aside {
 
 section.sidebar {
     display: flex;
-    background-color: #534c91;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
     padding: 20px;
     margin: 20px 0;
     border: 2px solid #000000;
     border-radius: 10px;
+    width: 30%;
+    background-color: #f0f0f0;
 }
+
 
 
 /* ---------------- Footer ----------------- */
@@ -283,6 +346,5 @@ footer {
     padding: 20px;
     text-align: center;
     width: fit-content;
-    
 }
 

@@ -148,8 +148,7 @@ header.primary .hgroup h2 {
 
 header.primary nav {
     max-width: 900px;
-    margin: 15px 30px;
-
+    margin: 15px auto;
 }
 
 header.primary ul {
@@ -329,6 +328,20 @@ section.sidebar {
     border-radius: 10px;
     width: 30%;
     background-color: #f0f0f0;
+}
+
+section.sidebar aside {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+section.sidebar aside img {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 20px 0;
+    border: 2px solid #00000000;
+    border-radius: 10px;
 }
 
 

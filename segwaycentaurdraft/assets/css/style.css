@@ -83,38 +83,36 @@ div {
 
 #about {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
     margin: 20px auto;
     border: 2px solid #000000;
     border-radius: 10px;
+    width: auto;
 }
 
 #about section#writing {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
     margin: 20px auto;
     border: 2px solid #000000;
     border-radius: 10px;
-    width: 40%;
+    width: auto;
 }
 
 #about aside {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
-    margin: 20px auto;
+    margin: auto;
     border: 2px solid #000000;
     border-radius: 10px;
-    width: 60%;
-    height: 60%;
 }
 /* ---------------- Primary Heading ----------------- */
 

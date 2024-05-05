@@ -21,7 +21,6 @@ img {
     max-width: 100%;
 }
 
-
 /*  --------------- Global Styles -----------------  */
 
 body {
@@ -73,8 +72,16 @@ div {
     background-color: #a310102a;
 }
 
-
-
+.container > aside:nth-child(2) > img:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #a310102a;
+    margin: 10px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
 
 /* ---------------- Primary Heading ----------------- */
 
@@ -158,6 +165,18 @@ section.container {
     border-radius: 10px;
 }
 
+section.container #about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #534c91;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
 section.container #lists {
     background-color: #D9CE3B;
     display: flex;
@@ -215,6 +234,32 @@ section.container aside {
     border: 2px solid #000000;
     border-radius: 10px;
 }
+
+section.container #writing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #534c91;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+section.container #about {
+    display: flex;
+    flex-direction: row;
+}
+
+section.container #about section {
+    flex: 1;
+}
+
+section.container #about aside {
+    flex: 1;
+}
+
 /* ---------------- Sidebar ----------------- */
 
 section.sidebar {
@@ -240,3 +285,4 @@ footer {
     width: fit-content;
     
 }
+

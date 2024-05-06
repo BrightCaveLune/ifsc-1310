@@ -286,7 +286,7 @@ section.container #lists ul {
 
 section.container #lists ul li {
     display: flex;
-    margin: 20px 0px;
+    margin: 0px;
     border-radius: 10px;
 }
 

@@ -1,0 +1,366 @@
+/* ---- CSS Demo ---- */
+
+
+/* Color Theme Swatches in Hex */
+
+
+/* ---- Box Sizing ---- */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*  --------------- Responsive Images -----------------  */
+
+img {
+    max-width: 100%;
+}
+
+/*  --------------- Global Styles -----------------  */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*  --------------- Utility Classes -----------------  */
+
+.container {
+    max-width: 960px;
+    width: 80vw;
+    margin: 40px auto;
+}
+
+.img-right {
+    float: right;
+    margin: 10px 0 10px 20px;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.img-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.img-center {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+/*  ---------------  -----------------  */
+
+div {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container > aside:nth-child(2) > img:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    width: auto;
+}
+
+#about section#writing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px auto;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+    width: auto;
+}
+
+#about aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px auto;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+    width: auto;
+}
+
+#about aside img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding: 0;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+}
+/* ---------------- Primary Heading ----------------- */
+
+header.primary {
+    text-align: center;
+    padding: 20px 40px;
+}
+
+header.primary .hgroup h1 {
+    font-size: 4rem;
+    margin: 20px 0 0;
+}
+
+header.primary .hgroup img {
+    max-width: 100%;
+    width: 53%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+header.primary .hgroup h1 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header.primary .hgroup h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #000000;
+}
+
+header.primary nav {
+    max-width: 900px;
+    margin: 15px auto;
+}
+
+header.primary ul {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+header.primary nav ul li {
+    list-style-type: none;
+
+}
+
+header.primary nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 5px 20px;
+    border-radius: 50px 4px;
+    border: 2px ridge #1A4027;
+    transition: 0.3s;
+}
+
+header.primary nav a:hover {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+/* ---------------- Content ----------------- */
+
+h2, h3 {
+    text-decoration: underline;
+}
+
+div#content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+    width: auto;
+}
+
+section.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+}
+
+section.container#main {
+    background-color: white;
+}
+
+section.container #about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+}
+
+#lists {
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content:left;
+    width: auto;
+}
+
+#design, #environ, #controls {
+    width: 30%;
+    margin: 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+#design h4, #environ h4, #controls h4 {
+    text-align:start;
+    text-decoration: underline;
+    
+}
+
+section.container #lists h4 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 20px 0;
+    display: flex;
+    margin: 20px auto;
+    padding: auto;
+}
+
+section.container #lists ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px;
+    list-style-type: none;
+}
+
+section.container #lists ul li {
+    display: flex;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+
+
+section.container #lists details {
+    display: flex;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #000000;
+    /*background-color: #00000027;*/
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section.container aside {
+    display: flex;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+section.container #writing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+/* ---------------- Sidebar ----------------- */
+
+section.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #f0f0f0;
+}
+
+section.sidebar aside {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+section.sidebar aside img {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 20px 0;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+}
+
+
+
+/* ---------------- Footer ----------------- */
+
+footer {
+    display: flex;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    background-color: grey;
+    
+}
+

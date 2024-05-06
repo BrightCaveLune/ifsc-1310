@@ -224,6 +224,10 @@ section.container {
     width: 70%;
 }
 
+section.container#main {
+    background-color: white;
+}
+
 section.container #about {
     display: flex;
     flex-direction: row;
@@ -253,6 +257,7 @@ section.container #about {
     border: 2px solid #000000;
     border-radius: 10px;
     padding: 10px;
+    background-color: #f0f0f0;
 }
 
 #design h4, #environ h4, #controls h4 {
@@ -351,12 +356,11 @@ section.sidebar aside img {
 
 footer {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 0px auto;
     text-align: center;
-    width: fit-content;
+    justify-content: center;
+    border: 2px solid #000000;
+    background-color: grey;
+    
 }
 
